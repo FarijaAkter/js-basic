@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IsArray Function</title>
+</head>
+<body>
+<p id="isarray"></p>
+
+<script>
+    const fruits = ['far', 'abid', 'rahman'];
+    document.getElementById("isarray").innerHTML=isArray(fruits);
+
+    function isArray(myArray) {
+     return myArray.constructor === Array;
+    }
+    </script>
+</body>
+</html>

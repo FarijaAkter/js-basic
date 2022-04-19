@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn with Sumit</title>
+</head>
+<body>
+  <p id="faru">
+<script>
+    class Person{
+        constructor(name,age,hobby){
+           this.name = name;
+           this.age=age;
+           this.hobby=hobby;
+        }
+        play(condition){
+            //console.log(this.name +" is playing and age is "+this.age);
+            console.log(`${this.name} is playing and age is ${condition} and my hobby is ${this.hobby}`);
+
+        }
+    }
+    const person1 = new Person("Farija",24,"reading");
+    const person2 = new Person("Abid",18,"sleeping");
+
+    person1.play("well");
+    person2.play("bad");
+</script>
+</body>
+</html>
